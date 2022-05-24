@@ -1,0 +1,253 @@
+*{
+    list-style: none;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #234649;
+}
+
+body {
+    background-color: #FFF;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FFF;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    padding: 15px 50px;
+    box-shadow: 0px 1px 10px #00000040;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+}
+
+ul .header {
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: right;
+    justify-content: space-evenly;
+}
+
+li {
+    color: #234649;
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+header img {
+    padding: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: left;
+}
+
+.header {
+    display: inline-block;
+}
+
+.login{
+    width: 116px;
+    height: 45px;
+    margin-right: 100px;
+    color: #FFF;
+    background-color: #E55F14;
+    border: 0px;
+    font-size: 20px;
+}
+
+.title {
+    padding: 195px 50px 300px;
+}
+
+ul .div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#txt {
+    float: right;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 32px;
+}
+
+.sub {
+    font-size: 24px;
+}
+
+.search {
+    width: 530px;
+    height: 85px;
+    color: #000;
+    background-color: #E55F14;
+    border: 0px;
+    border-color: #E55F14;
+    font-family: 'Source Sans 3';
+    font-size: 36;
+}
+
+input:focus {
+    border-color: #E55F14;
+}
+
+::placeholder {
+  color: #FFF;
+  font-family: 'Source Sans 3';
+  font-size: 36;
+  text-align: center;
+}
+
+.title2 {
+    padding-bottom: 95px;
+}
+
+.title2 img {
+    float: right;
+}
+
+.learn {
+    width: 290px;
+    height: 80px;
+    color: #FFF;
+    background-color: #E55F14;
+    border: 0px;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 36;
+    margin-left: 100px;
+}
+
+.carousel {
+    max-width: 390px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    font-weight: 600;
+    margin: 0px 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    color: #FFF;
+    width: 100%;
+}
+
+.main {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: scroll;
+    margin-left: 50px;
+}
+
+.course {
+    display: inline-block;
+}
+
+.courses {
+    display: inline;
+}
+
+.Cbutton {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: right;
+}
+
+.all {
+    width: 290;
+    height: 80;
+    background-color: #E55F14;
+    color: #FFF;
+    border: 0px;
+    font-size: 24;
+    margin-right: 50px;
+}
+
+.social {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+}
+
+#bold {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.socialB {
+    margin: 100px 0px;
+}
+
+footer {
+    background-color: #234649;
+}
+
+h4 {
+    color: #FFF;
+    font-size: 24px;
+}
+
+.footer {
+    margin: 50px 25px;
+
+}
+
+.constrain {
+    width: 30%;
+    float:left;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.footer2 {
+    color: #FFF;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.footer3 {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.cataloginput {
+    width: 250px;
+    height: 50px;
+    background-color: #E55F14;
+}
+
+.catalogbutton {
+    width: 100px;
+    height: 54px;
+    background-color: #FFF;
+    color: #234649;
+    border: 0;
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+}
+
+.adress {
+    text-align: center;
+}
+
+.faq {
+    text-align: center;
+}
