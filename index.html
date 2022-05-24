@@ -73,18 +73,16 @@
             <div class='centered'>CAD & Technical Drawing</div>
         </div>
     </div>
-    <div class='courses'
-        <ul class='course'>
-            <li>
+    <table class='coursetable'>
+        <tr class='courses'>
+            <td class='course'>
                 <h3 class='more'>Courses</h3>
-            </li>
-        </ul>
-        <ul class='Cbutton'>
-            <li>
+            </td>
+            <td class='Cbutton'>
                 <button type="button" class='all'>All courses</button>
-            </li>
-        </ul>
-    </div>
+            </td>
+        </tr>
+    </table>
     <div class='main'>
         <div class='carousel'>
             <img src='./Assets/courses_1_Python_intro.png' alt='Python on a post-it not.' style="width:100%;">
@@ -125,33 +123,39 @@
     </div>
     <div class='footerclean'>
         <footer>
-            <div class='footer'>
-                <div class='constrain'>
-                    <h4>Stay connected</h4>
-                    <p class='footer2'>Join over 2000 students who recieve a monthly updates about our courses.</p>
-                    <input type='text' placeholder='name@email.com' class='cataloginput'>
-                    <button type="button" class='catalogbutton'>Sign up</button>
-                </div>
-                <div class='constrain'>
-                    <h4>Commited to education</h4>
-                    <p class='footer2'>WiseCard is a part IDDDR (a non-profit org commited to bringing free, quality education for all age groups, and striving for advencement of democracy through research and education).</p>
-                </div>
-                <div class='constrain'>
-                    <h4>Partners</h4>
-                    <img src='./Assets/partner_1.png' alt='A star shaped logo.'>
-                    <img src='./Assets/partner_2.png' alt='A triangle shaped logo.'>
-                    <img src='./Assets/partner_3.png' alt='A hexagon shaped logo.'>
-                </div>
-            </div></br>
-            <div class='adress'>
-                <p class='footer2' id='bold'>Institute for Democratic Developement and Data Research</p>
-                <p class='footer2'>Ulica Kneza Mislava 3, 10000 Zagreb, Republika Hrvatska</p>
-                <p class='footer2'>Phone: 01/6656-337</p>
-            </div></br>
-            <div class='faq'>
-                <p class='footer3'>Privacy policy<p>
-                <p class='footer3'>© 2022 IDDDR</p>
-            </div>
+            <table>
+                <tr>
+                    <td class='one'>
+                        <h4>Stay connected</h4>
+                        <p class='footer2'>Join over 2000 students who recieve a monthly updates about our courses.</p>
+                        <input type='text' placeholder='name@email.com' class='cataloginput'>
+                        <button type="button" class='catalogbutton'>Sign up</button>
+                    </td>
+                    <td class='two'>
+                        <h4>Commited to education</h4>
+                        <p class='footer2'>WiseCard is a part IDDDR (a non-profit org commited to bringing free, quality education for all age groups, and striving for advencement of democracy through research and education).</p>
+                    </td>
+                    <td class='three'>
+                        <h4>Partners</h4>
+                        <img src='./Assets/partner_1.png' alt='A star shaped logo.' class='partneri'>
+                        <img src='./Assets/partner_2.png' alt='A triangle shaped logo.' class='partneri'>
+                        <img src='./Assets/partner_3.png' alt='A hexagon shaped logo.' class='partneri'>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class='adress' id='bold'>Institute for Democratic Developement and Data Research</td>
+                    <td class='adress'>Ulica Kneza Mislava 3, 10000 Zagreb, Republika Hrvatska</td>
+                    <td class='adress'>Phone: 01/6656-337</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class='faq'>Privacy policy<p>
+                    <td class='faq'>© 2022 IDDDR</p>
+                </tr>
+            </table>
         </footer>
     </div>
 </body>

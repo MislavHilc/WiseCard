@@ -157,21 +157,23 @@ h3 {
     margin-left: 50px;
 }
 
-.course {
-    display: inline-block;
+.coursetable {
+    width: 100%;
+}
+.courses {
+    width: 100%;
 }
 
-.courses {
-    display: inline;
+.course {
+    text-align: left;
 }
 
 .Cbutton {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: right;
+    text-align: right;
 }
 
 .all {
+    font-family: 'Source Sans 3';
     width: 290;
     height: 80;
     background-color: #E55F14;
@@ -188,7 +190,6 @@ h3 {
 }
 
 #bold {
-    font-size: 32px;
     font-weight: bold;
 }
 
@@ -223,11 +224,6 @@ h4 {
     margin: 50px;
 }
 
-.footer3 {
-    color: #FFF;
-    font-size: 16px;
-}
-
 .cataloginput {
     width: 250px;
     height: 50px;
@@ -245,9 +241,39 @@ h4 {
 }
 
 .adress {
-    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    padding: 5px;
 }
 
 .faq {
     text-align: center;
+    color: #FFF;
+    padding: 5px;
+}
+
+.one {
+    width: 33%;
+    text-align: center;
+}
+
+.two {
+    width: 33%;
+    text-align: center;
+}
+
+.three {
+    width: 33%;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.partneri {
+    padding: 15px;
 }
