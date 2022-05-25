@@ -130,6 +130,7 @@ input:focus {
 h3 {
     font-size: 36;
     margin-left: 100px;
+    margin-bottom: 50px;
 }
 
 .carousel {
@@ -276,4 +277,8 @@ table {
 
 .partneri {
     padding: 15px;
+}
+
+a {
+    text-decoration: none;
 }
