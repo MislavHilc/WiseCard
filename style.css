@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: #FFF;
-    position: fixed;
+    position: sticky;
     width: 100%;
     z-index: 10;
     padding: 15px 50px;
@@ -131,6 +131,7 @@ h3 {
     font-size: 36;
     margin-left: 100px;
     margin-bottom: 50px;
+    margin-top: 100px;
 }
 
 .carousel {
