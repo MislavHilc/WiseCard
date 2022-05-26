@@ -8,3 +8,7 @@ Only homepage for now.
 Have a few issues to update yet.
 
 https://mislavhilc.github.io/WiseCard/
+
+26th of May 2022.
+  - I tried to fix the issues in both HTML and CSS today, but that ended in a complete monstrosity of a failure
+  - Instead I completely redid whole HTML and CSS, basicaly from scratch to fix many of the issues
