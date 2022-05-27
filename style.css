@@ -64,6 +64,17 @@ button.all {
     border: 0;
 }
 
+button.catalogbutton {
+    width: 110px;
+    height: 56px;
+    background-color: #E55F14;
+    color: #FFF;
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    border: 0;
+    margin-left: 0;
+}
+
 h3 {
     font-size: 36px;
 }
@@ -113,6 +124,25 @@ input.search::placeholder {
     text-align: center;
     font-family: 'Source Sans 3';
     font-size: 24px;
+}
+
+input.cataloginput {
+    background-color: #FFF;
+    color: #234649;
+    text-align: center;
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    width: 270px;
+    height: 50px;
+    margin-right: 0;
+}
+
+input.cataloginput::placeholder {
+    color: #234649;
+    text-align: center;
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    margin-right: 0;
 }
 
 #left {
